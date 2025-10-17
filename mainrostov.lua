@@ -12,7 +12,7 @@ local function showWelcomeNotification()
     local gui = game:GetService("CoreGui") or game.Players.LocalPlayer:WaitForChild("PlayerGui")
     
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Load!",
+        Title = "🌊WaveRostov Load!🌊",
         Text = "Successful Load! Приятной вам игры",
         Icon = "rbxassetid://84501783275854",
         Duration = 8
@@ -25,7 +25,7 @@ player.CharacterAdded:Connect(function()
     wait(1)
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Spawned",
-        Text = "Уведомление при спавне",
+        Text = "Вы заспавнились",
         Icon = "rbxassetid://84501783275854",
         Duration = 5
     })
@@ -47,7 +47,7 @@ local function createCustomNotification()
     title.Size = UDim2.new(1, 0, 0, 30)
     title.Position = UDim2.new(0, 0, 0, 0)
     title.BackgroundTransparency = 1
-    title.Text = "Cheat Load!"
+    title.Text = "🌊WaveRostov Load!🌊"
     title.TextColor3 = Color3.fromRGB(255, 255, 255)
     title.TextScaled = true
     title.Font = Enum.Font.GothamBold
