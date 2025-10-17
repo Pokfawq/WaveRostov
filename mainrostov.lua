@@ -96,8 +96,6 @@ end
 
 createCustomNotification()
 
-print("ZeroTracer успешно загружен!")
-
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
