@@ -161,7 +161,7 @@ NameLabel.Position = UDim2.new(0.077, 0, 0, 0)
 NameLabel.BackgroundTransparency = 1
 NameLabel.TextSize = 16
 NameLabel.TextColor3 = Color3.new(1, 1, 1)
-NameLabel.Text = "RostovCheat  ///  Powered by t.me/rstwizoxu161"
+NameLabel.Text = "WaveRostov  ///  Powered by t.me/rstwizoxu161"
 NameLabel.Font = Enum.Font.SourceSans
 NameLabel.Parent = MainFrame
 
